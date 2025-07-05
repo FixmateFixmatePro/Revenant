@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/revenant-one-site/',
+  base: 'https://fixmatefixmatepro.github.io/Reverent-One/',
   plugins: [react()],
 })
