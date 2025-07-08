@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REVENANT™ | Botanical Recovery System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+      text-align: center;
+    }
+
+    header {
+      background-color: #1c1c1c;
+      color: #fff;
+      padding: 60px 20px 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-family: 'Georgia', serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    header h1 span {
+      font-size: 1rem;
+      vertical-align: super;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 1.2rem;
+      color: #bbb;
+      font-style: italic;
+    }
+
+    .supplements {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 30px;
+    }
+
+    .product {
+      max-width: 260px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease;
+    }
+
+    .product img:hover {
+      transform: scale(1.04);
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2rem;
+    }
+
+    .product p {
+      font-size: 0.95rem;
+      color: #555;
+      padding: 0 10px;
+    }
+
+    .bundle {
+      background-color: #fff;
+      padding: 50px 20px;
+      border-top: 1px solid #ccc;
+    }
+
+    .bundle h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .bundle-desc {
+      max-width: 600px;
+      margin: 0 auto 20px;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .bundle-card {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .bundle-card img {
+      width: 80px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .bundle-price {
+      font-size: 1.2rem;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .bundle-save {
+      color: #27ae60;
+      font-weight: bold;
+      font-size: 1rem;
+      margin-left: 10px;
+    }
+
+    .bundle-btn {
+      background-color: #1c1c1c;
+      color: #fff;
+      padding: 12px 28px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .bundle-btn:hover {
+      background-color: #333;
+    }
+
+    footer {
+      background-color: #1c1c1c;
+      color: #999;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>REVENANT<span>™</span></h1>
+    <p>Integrated Botanical Recovery System</p>
+  </header>
+
+  <section class="supplements">
+    <div class="product">
+      <img src="./images/core_formula.png" alt="Revenant Core" />
+      <h3>Core Formula</h3>
+      <p>The foundation of full-body wellness. Designed to support cellular repair, detox pathways, and core system balance using ancient adaptogens and minerals.</p>
+    </div>
+
+    <div class="product">
+      <img src="./images/joint_formula.png" alt="Revenant Joint" />
+      <h3>Joint Formula</h3>
+      <p>Supports joint flexibility and cartilage resilience. Crafted with turmeric, arnica, and essential collagen stimulators for active recovery and pain-free motion.</p>
+    </div>
+
+    <div class="product">
+      <img src="./images/prime_formula.png" alt="Revenant Prime" />
+      <h3>Prime Formula</h3>
+      <p>Optimizes vitality and hormonal balance. A potent daily formula to amplify strength, clarity, and energy through botanical testosterone and thyroid support.</p>
+    </div>
+
+    <div class="product">
+      <img src="./images/sleep_formula.png" alt="Revenant Sleep" />
+      <h3>Sleep Formula</h3>
+      <p>Promotes deep, restorative sleep and circadian rhythm repair. Includes valerian, magnesium glycinate, and calming herbs to support mental stillness and REM cycles.</p>
+    </div>
+
+    <div class="product">
+      <img src="./images/synergy_formula.png" alt="Revenant Synergy" />
+      <h3>Synergy Formula</h3>
+      <p>A harmonizing blend that enhances absorption and unites all formulas. Synergy magnifies nutrient delivery and optimizes the body’s healing rhythm.</p>
+    </div>
+  </section>
+
+  <section class="bundle">
+    <h2>✨ Revenant Total Wellness Bundle</h2>
+    <p class="bundle-desc">
+      Unlock complete restoration. The Total Wellness Bundle includes all five Revenant formulas — optimized to work in harmony for your body’s ultimate recovery, renewal, and resilience.
+    </p>
+    <div class="bundle-card">
+      <img src="./images/core_formula.png" alt="Core Bottle" />
+      <img src="./images/joint_formula.png" alt="Joint Bottle" />
+      <img src="./images/prime_formula.png" alt="Prime Bottle" />
+      <img src="./images/sleep_formula.png" alt="Sleep Bottle" />
+      <img src="./images/synergy_formula.png" alt="Synergy Bottle" />
+    </div>
+    <p class="bundle-price">$179 <span class="bundle-save">(Save 25%)</span></p>
+    <button class="bundle-btn">Add Bundle to Cart</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Revenant Labs. All rights reserved.
+  </footer>
+</body>
+</html>
